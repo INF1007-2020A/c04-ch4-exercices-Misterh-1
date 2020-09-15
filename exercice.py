@@ -21,8 +21,6 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    string_div = string.split
-    #print(string_div)
     new_string = ""
     for i in range (len(string)):
         if string_div[i] == old_char :
