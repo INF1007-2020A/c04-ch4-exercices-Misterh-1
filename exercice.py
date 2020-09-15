@@ -24,7 +24,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     new_string = ""
     for i in range (len(string)):
         if string[i] == old_char :
-           print("trouver") 
+            
     return new_string
     pass
 
