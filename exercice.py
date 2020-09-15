@@ -3,7 +3,8 @@
 
 
 def is_even_len(string: str) -> bool:
-    count
+    counter = 0
+    
     pass
 
 
