@@ -12,7 +12,8 @@ def is_even_len(string: str) -> bool:
 
 
 def remove_third_char(string: str) -> str:
-    new_word = 
+    new_word = ''
+    
     return string
     pass
 
