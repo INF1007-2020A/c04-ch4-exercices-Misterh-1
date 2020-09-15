@@ -8,7 +8,6 @@ def is_even_len(string: str) -> bool:
         return True
     else :
         return False
-    pass
 
 
 def remove_third_char(string: str) -> str:
@@ -17,7 +16,6 @@ def remove_third_char(string: str) -> str:
         if i != 2 :
             new_word = new_word + string[i]
     return new_word
-    pass
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
@@ -28,7 +26,6 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
         else :
             new_string += string[i]
     return new_string
-    pass
 
 
 def get_number_of_char(string: str, char: str) -> int:
@@ -37,7 +34,6 @@ def get_number_of_char(string: str, char: str) -> int:
         if string[i] == char :
             counter +=1 
     return counter
-    pass
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
