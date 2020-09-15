@@ -16,7 +16,7 @@ def remove_third_char(string: str) -> str:
     for i in range (len(string)) :
         if i != 2 :
             new_word = new_word + string[i]
-    return string
+    return new_word
     pass
 
 
