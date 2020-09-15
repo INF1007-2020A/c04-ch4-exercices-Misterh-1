@@ -23,7 +23,7 @@ def remove_third_char(string: str) -> str:
 def replace_char(string: str, old_char: str, new_char: str) -> str:
     string_split = string.split
     new_string = ""
-    for i in range (len(string_split)):
+    for i in range (len(string)):
         if string_split[i] == 'w' :
             string_split[i] == 'z'
         new_string = new_string + string_split[i]
