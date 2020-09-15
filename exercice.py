@@ -25,7 +25,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     #print(string_div)
     new_string = ""
     for i in range (len(string)):
-        if string_split[i] == old_char :
+        if string_div[i] == old_char :
             string_split[i] == new_char
         new_string = new_string + string_split[i]
     return new_string
