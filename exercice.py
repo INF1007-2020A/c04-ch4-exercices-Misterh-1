@@ -7,7 +7,7 @@ def is_even_len(string: str) -> bool:
     if x == 0 :
         return True
     else :
-        
+        return False
     pass
 
 
