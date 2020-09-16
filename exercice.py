@@ -41,7 +41,8 @@ def get_number_of_words(sentence: str, word: str) -> int:
      new_sentence = sentence.split(" ")
      #print(sentence)
      #print(len(sentence))
-   for i in range (len(sentence)):
+    for i in range (len(sentence)):
+        
 
     #    if string[i] == char :
     #        counter +=1 
