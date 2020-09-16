@@ -40,8 +40,8 @@ def get_number_of_words(sentence: str, word: str) -> int:
      counter = 0
      sentence = sentence.split(" ")
      #print(sentence)
-     print(len(sentence))
-   #for i in range (len(sentence)):
+     #print(len(sentence))
+   for i in range (len(sentence)):
     #    if string[i] == char :
     #        counter +=1 
     #return counter
