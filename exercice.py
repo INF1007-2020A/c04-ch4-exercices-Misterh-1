@@ -46,7 +46,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
              counter += 1
     #    if string[i] == char :
     #        counter +=1 
-    return counter
+     return counter
 
 
 def main() -> None:
