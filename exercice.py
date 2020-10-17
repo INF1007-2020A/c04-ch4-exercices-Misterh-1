@@ -14,7 +14,7 @@ def remove_third_char(string: str) -> str:
     new_word = ""
     for i in range (len(string)) :
         if i != 2 :
-            new_word = new_word + string[i]
+            new_word += string[i]
     return new_word
 
 
@@ -38,13 +38,9 @@ def get_number_of_char(string: str, char: str) -> int:
 
 def get_number_of_words(sentence: str, word: str) -> int:
      counter = 0
-     sentence = sentence.split(" ")
-     lenght = len(sentence)
-     sentence.append("")
-     #print(sentence)
-     #print(len(sentence)
-     for i in range (lenght) :
-        if sentence[i] == sentence[i +1]:
+     liste_words = sentence.split(" ")
+     for mot in liste_words :
+        if mot == word:
                 counter += 1
      return counter
 
@@ -64,7 +60,7 @@ def main() -> None:
 
     print(f"Le nombre d'occurrence de l dans hello world est : {get_number_of_char(chaine, 'l')}")
     
-    chaine = "Baby shark doo doo doo doo doo doo"
+    chaine = "Baby shark doo doo doo doo doo"
     print(f"L'occurence du mot doo dans la chaine {chaine} est: {get_number_of_words(chaine, 'doo')}")
 
 
